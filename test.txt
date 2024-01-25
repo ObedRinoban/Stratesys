@@ -1,0 +1,25 @@
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] INFO  com.stratesys.ebers.base.http.servlets.ProxyConfig - Excluded Header for Response: []
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Copying headers to new Connection.
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Resolving Target URL
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.ProxyConfig - Could not find key: /v2. Can't find resource for bundle java.util.PropertyResourceBundle, key /v2
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Reverse Proxy config found: null
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Building Non-Proxied URL
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Method: POST
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Target URL: https://efmdev.angloamerican.com:443/otcs/cs.exe/api/v2/ebers/workflow/initiate
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Copying headers to new Connection.
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - ***Header 'otdsticket' ignored.
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - REMOTE_ADDR configured
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - wamHeader ( from init params ) : OTDSTICKET
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - wamHeader not null
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Decoding ticket ... 
+2024-01-25 21:45:06.239 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Building Body Form Encoded
+2024-01-25 21:45:06.254 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Flushing body.
+2024-01-25 21:45:06.254 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Body:
+2024-01-25 21:45:06.254 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - ==================
+2024-01-25 21:45:28.405 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Content-Type: application/json; charset=UTF-8
+2024-01-25 21:45:28.405 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Content-Length: 2606
+2024-01-25 21:45:28.405 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.HttpConnectionBuilder - Charset: UTF-8
+2024-01-25 21:45:28.405 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.ConnectionProxyServlet - Response code: 500
+2024-01-25 21:45:28.405 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.ConnectionProxyServlet - Copying headers from Response.
+2024-01-25 21:45:28.405 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.ConnectionProxyServlet - ***Ignoring Header 'null' from Response.
+2024-01-25 21:45:28.405 [https-jsse-nio-443-exec-9] DEBUG com.stratesys.ebers.base.http.servlets.ConnectionProxyServlet - Getting error stream ... 
